@@ -41,10 +41,10 @@
 		607FACE51AFB9204008FA782 /* DimonCocoa_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimonCocoa_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A41709D350957A7264CD435B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		C060F55FBC606A8FDC6A3A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A41709D350957A7264CD435B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C060F55FBC606A8FDC6A3A06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C383EA8BA6A8317349D68C02 /* Pods-DimonCocoa_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DimonCocoa_Example.debug.xcconfig"; path = "Target Support Files/Pods-DimonCocoa_Example/Pods-DimonCocoa_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		D59BC437E7EDFB57EDB8D550 /* DimonCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DimonCocoa.podspec; path = ../DimonCocoa.podspec; sourceTree = "<group>"; };
+		D59BC437E7EDFB57EDB8D550 /* DimonCocoa.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DimonCocoa.podspec; path = ../DimonCocoa.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DBBD3FE82CBE17FF676BBD4D /* Pods_DimonCocoa_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DimonCocoa_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29F30D68E489C2FC6B6AA51 /* Pods-DimonCocoa_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DimonCocoa_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DimonCocoa_Tests/Pods-DimonCocoa_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,6 @@
 				E29F30D68E489C2FC6B6AA51 /* Pods-DimonCocoa_Tests.debug.xcconfig */,
 				50116ECFE0862A557A5482C7 /* Pods-DimonCocoa_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
