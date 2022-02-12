@@ -9,10 +9,10 @@ import Foundation
 
 public struct DimonCocoa {
     
-    private let text = "Hello, i'm Cocoa Pod"
+    public init() {}
     
     public func sayHello() {
-        print(text)
+        print("Hello, World")
     }
     
 }
