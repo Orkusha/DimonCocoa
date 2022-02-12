@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DimonCocoa_Example' do
+  pod 'DimonCocoa', :path => '../'
+
+  target 'DimonCocoa_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
